@@ -37,7 +37,7 @@ z__print("Hello, World!");
 #include "print.h"
 
 int a = 4, b = a+a;
-char *str = "Numbers";
+char str[] = "Numbers";
 
 z__print(str, a, b, 3.0f/2);
 ```
